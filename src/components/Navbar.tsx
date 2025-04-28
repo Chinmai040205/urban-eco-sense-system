@@ -11,14 +11,14 @@ const Navbar = () => {
           <div className="h-8 w-8 rounded-full bg-gradient-to-br from-eco-600 to-tech-600 flex items-center justify-center">
             <span className="text-white font-bold text-lg">E</span>
           </div>
-          <span className="font-bold text-xl">EcoSense</span>
+          <Link to="/" className="font-bold text-xl">EcoSense</Link>
         </div>
         
         <div className="hidden md:flex items-center space-x-6">
           <Link to="/" className="text-foreground hover:text-primary transition-colors">Home</Link>
-          <Link to="/#features" className="text-foreground hover:text-primary transition-colors">Features</Link>
-          <Link to="/#how-it-works" className="text-foreground hover:text-primary transition-colors">How It Works</Link>
-          <Link to="/#benefits" className="text-foreground hover:text-primary transition-colors">Benefits</Link>
+          <Link to="/features" className="text-foreground hover:text-primary transition-colors">Features</Link>
+          <Link to="/how-it-works" className="text-foreground hover:text-primary transition-colors">How It Works</Link>
+          <Link to="/benefits" className="text-foreground hover:text-primary transition-colors">Benefits</Link>
           <Link to="/dashboard" className="text-foreground hover:text-primary transition-colors">Dashboard Demo</Link>
         </div>
         
