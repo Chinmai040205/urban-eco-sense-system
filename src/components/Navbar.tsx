@@ -23,8 +23,8 @@ const Navbar = () => {
         </div>
         
         <div>
-          <Button className="bg-gradient-to-r from-eco-600 to-tech-600 hover:from-eco-700 hover:to-tech-700">
-            Request Demo
+          <Button asChild className="bg-gradient-to-r from-eco-600 to-tech-600 hover:from-eco-700 hover:to-tech-700">
+            <Link to="/request-demo">Request Demo</Link>
           </Button>
         </div>
       </div>
