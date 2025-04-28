@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../ui
 
 const CollectionMap = () => {
   return (
-    <Card className="col-span-2 lg:col-span-2">
+    <Card className="col-span-3 lg:col-span-3">
       <CardHeader>
         <CardTitle>Collection Map</CardTitle>
         <CardDescription>Current bin locations and collection routes</CardDescription>
@@ -38,7 +38,7 @@ const CollectionMap = () => {
             
             {/* Truck icon */}
             <div className="absolute top-[30%] left-[70%] transform -translate-x-1/2 -translate-y-1/2">
-              <svg className="w-5 h-5 text-tech-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM15 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
                 <path d="M3 4a1 1 0 00-1 1v10a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H10a1 1 0 001-1v-5h2a2 2 0 012 2v3a1 1 0 001 1h1.05a2.5 2.5 0 014.9 0H19a1 1 0 001-1v-2a4 4 0 00-3-3.87V7a1 1 0 00-1-1h-8a1 1 0 00-1 1v1H3V5a1 1 0 00-1-1z" />
               </svg>
